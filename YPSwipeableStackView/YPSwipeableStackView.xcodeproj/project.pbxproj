@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5745C97C247453420059C80D /* YPSwipeableStackView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE404E3225BD66800FA0889 /* YPSwipeableStackView.framework */; };
 		6FE404E8225BD66800FA0889 /* YPSwipeableStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE404E6225BD66800FA0889 /* YPSwipeableStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FE40530225BD8EF00FA0889 /* YPSwipeableStackViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE4052F225BD8EF00FA0889 /* YPSwipeableStackViewDataSource.swift */; };
 		6FE405B8225BDE0A00FA0889 /* YPSwipeableStackViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE405B7225BDE0A00FA0889 /* YPSwipeableStackViewDelegate.swift */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5745C97C247453420059C80D /* YPSwipeableStackView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +184,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6FE404D9225BD66800FA0889;
 			productRefGroup = 6FE404E4225BD66800FA0889 /* Products */;

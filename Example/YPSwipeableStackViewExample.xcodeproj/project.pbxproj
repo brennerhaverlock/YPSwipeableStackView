@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5745C97D247453620059C80D /* YPSwipeableStackViewExample.app in Resources */ = {isa = PBXBuildFile; fileRef = 6FE404F7225BD68D00FA0889 /* YPSwipeableStackViewExample.app */; };
 		6F09A20B225D1FBC0003C1E4 /* AnimalProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A20A225D1FBC0003C1E4 /* AnimalProfileView.swift */; };
 		6F09A20D225D200C0003C1E4 /* AnimalProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F09A20C225D200C0003C1E4 /* AnimalProfileView.xib */; };
 		6F09A20F225D273F0003C1E4 /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09A20E225D273F0003C1E4 /* ColoredView.swift */; };
@@ -17,26 +18,7 @@
 		6FE40500225BD68D00FA0889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE404FE225BD68D00FA0889 /* Main.storyboard */; };
 		6FE40502225BD68E00FA0889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE40501225BD68E00FA0889 /* Assets.xcassets */; };
 		6FE40505225BD68E00FA0889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE40503225BD68E00FA0889 /* LaunchScreen.storyboard */; };
-		6FE4052A225BD7BD00FA0889 /* YPSwipeableStackView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE40521225BD74300FA0889 /* YPSwipeableStackView.framework */; };
-		6FE4052B225BD7BD00FA0889 /* YPSwipeableStackView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE40521225BD74300FA0889 /* YPSwipeableStackView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6FE40520225BD74300FA0889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FE4051C225BD74200FA0889 /* YPSwipeableStackView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6FE404E3225BD66800FA0889;
-			remoteInfo = YPSwipeableStackView;
-		};
-		6FE4052C225BD7BD00FA0889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FE4051C225BD74200FA0889 /* YPSwipeableStackView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FE404E2225BD66800FA0889;
-			remoteInfo = YPSwipeableStackView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		6FE4052E225BD7BD00FA0889 /* Embed Frameworks */ = {
@@ -45,7 +27,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6FE4052B225BD7BD00FA0889 /* YPSwipeableStackView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE4052A225BD7BD00FA0889 /* YPSwipeableStackView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,14 +143,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		6FE4051D225BD74200FA0889 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6FE40521225BD74300FA0889 /* YPSwipeableStackView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,7 +158,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6FE4052D225BD7BD00FA0889 /* PBXTargetDependency */,
 			);
 			name = YPSwipeableStackViewExample;
 			productName = YPSwipeableStackViewExample;
@@ -219,28 +190,12 @@
 			mainGroup = 6FE404EE225BD68D00FA0889;
 			productRefGroup = 6FE404F8225BD68D00FA0889 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6FE4051D225BD74200FA0889 /* Products */;
-					ProjectRef = 6FE4051C225BD74200FA0889 /* YPSwipeableStackView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6FE404F6225BD68D00FA0889 /* YPSwipeableStackViewExample */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6FE40521225BD74300FA0889 /* YPSwipeableStackView.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = YPSwipeableStackView.framework;
-			remoteRef = 6FE40520225BD74300FA0889 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6FE404F5225BD68D00FA0889 /* Resources */ = {
@@ -249,6 +204,7 @@
 			files = (
 				6F09A20D225D200C0003C1E4 /* AnimalProfileView.xib in Resources */,
 				6FE40505225BD68E00FA0889 /* LaunchScreen.storyboard in Resources */,
+				5745C97D247453620059C80D /* YPSwipeableStackViewExample.app in Resources */,
 				6FE40502225BD68E00FA0889 /* Assets.xcassets in Resources */,
 				6FE40500225BD68D00FA0889 /* Main.storyboard in Resources */,
 			);
@@ -271,14 +227,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6FE4052D225BD7BD00FA0889 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YPSwipeableStackView;
-			targetProxy = 6FE4052C225BD7BD00FA0889 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6FE404FE225BD68D00FA0889 /* Main.storyboard */ = {
